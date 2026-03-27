@@ -2,6 +2,10 @@
 
 基于 100+ 篇张雪峰公开访谈整理，打造一个纯静态离线可用的问答网站，解答学生关于考研、择校、高考志愿填报、专业选择等困惑。
 
+## 在线访问
+
+直接访问 `https://ZedeX.github.io/zhangxuefeng-legency/`
+
 ## 项目特点
 
 - **纯静态网页**：所有数据内联，无需后端服务器，双击 `index.html` 直接打开使用
@@ -30,9 +34,9 @@
 
 直接下载后双击打开 `index.html` 即可使用。
 
-### 在线访问
+## 在线访问
 
-如果已经部署到 GitHub Pages，可以直接访问 `https://ZedeX.github.io/zhangxuefeng-legency/`
+直接访问 `https://ZedeX.github.io/zhangxuefeng-legency/`
 
 ## 数据统计
 
