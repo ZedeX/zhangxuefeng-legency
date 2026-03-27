@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <title>张雪峰教育观点问答 - 考研择校志愿填报专业选择</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 头部 -->
+    <header class="header">
+      <h1>张雪峰教育观点问答</h1>
+      <p class="subtitle">基于 100+ 篇访谈整理 · 解答考研、择校、志愿填报、专业选择困惑</p>
+    </header>
+
+    <!-- 搜索框 -->
+    <div class="search-section">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="输入你的问题，比如：低分推荐什么专业？要不要考研？护理好不好？" autocomplete="off">
+        <button id="searchBtn">搜索</button>
+      </div>
+      <div class="hot-questions">
+        <span class="hot-label">热门问题：</span>
+        <button class="hot-tag" data-question="普通家庭为什么不推荐临床医学？">普通家庭临床</button>
+        <button class="hot-tag" data-question="为什么推荐口腔医学？">口腔医学</button>
+        <button class="hot-tag" data-question="张雪峰推荐普通家庭哪些专业？">推荐专业</button>
+        <button class="hot-tag" data-question="到底要不要考研？">要不要考研</button>
+        <button class="hot-tag" data-question="新高考3+1+2模式选科怎么选比较好？">选科建议</button>
+        <button class="hot-tag" data-question="民办二本值得去读吗？还是复读？">民办二本</button>
+        <button class="hot-tag" data-question="张雪峰对新闻学的原话是什么？">新闻学</button>
+      </div>
+    </div>
+
+    <!-- 主要内容区 -->
+    <div class="main-content">
+      <!-- 左侧边栏：分类导航 -->
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h3>分类导航</h3>
+          <ul class="category-list" id="categoryList">
+            <li><a href="#" data-category="all" class="category-item active">全部问题</a></li>
+            <li><a href="#" data-category="高考志愿" class="category-item">高考志愿</a></li>
+            <li><a href="#" data-category="专业选择" class="category-item">专业选择</a></li>
+            <li><a href="#" data-category="考研" class="category-item">考研</a></li>
+            <li><a href="#" data-category="人生建议" class="category-item">人生建议</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>统计信息</h3>
+          <div class="stats">
+            <p>总问题数：<span id="totalCount">0</span></p>
+            <p>当前显示：<span id="showCount">0</span></p>
+          </div>
+        </div>
+
+        <div class="sidebar-section quote-section">
+          <h3>经典语录</h3>
+          <div id="randomQuote" class="random-quote"></div>
+        </div>
+      </aside>
+
+      <!-- 右侧内容 -->
+      <main class="content-area">
+        <!-- 搜索结果 -->
+        <div id="results" class="results">
+          <div class="welcome-message">
+            <h2>👋 欢迎使用</h2>
+            <p>这是一个基于张雪峰 100+ 篇公开访谈整理的教育观点问答网站。</p>
+            <p>你可以：</p>
+            <ul>
+              <li>在上方搜索框输入你的问题</li>
+              <li>点击左侧分类导航按分类浏览</li>
+              <li>点击热门问题快速查看</li>
+            </ul>
+            <p class="disclaimer">本网站仅整理公开观点，不代表本站立场，仅供参考。</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>基于张雪峰公开访谈整理 | 纯静态网页 · 完全离线可用</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
