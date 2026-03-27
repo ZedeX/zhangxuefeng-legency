@@ -4,7 +4,7 @@
 
 ## 在线访问
 
-直接访问 `https://ZedeX.github.io/zhangxuefeng-legency/`
+直接访问 `https://ZedeX.github.io/zhangxuefeng-legency/`(https://ZedeX.github.io/zhangxuefeng-legency/)
 
 ## 项目特点
 
