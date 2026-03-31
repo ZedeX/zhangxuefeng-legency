@@ -56,7 +56,7 @@
 
 ## 数据来源
 
-部分访谈内容来源于：https://github.com/OpenDocCN/zhangxuefeng，部分由爬虫搜集于搜索引擎。如原作者认为侵权请提Issue：https://github.com/ZedeX/zhangxuefeng-legency/issues/new
+部分访谈内容来源于：`https://github.com/OpenDocCN/zhangxuefeng/` ，部分由爬虫搜集于搜索引擎。如原作者认为侵权请提Issue：`https://github.com/ZedeX/zhangxuefeng-legency/issues/new`
 
 ## 免责声明
 
